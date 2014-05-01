@@ -8,7 +8,7 @@ using System.Text;
 namespace GroupByYearThenMonth
 {
     /// <summary>
-    /// Sort the files in the five folder by the year and month when the phot was taken.
+    /// Sort the files in the given folder by the year and month when the phot was taken.
     /// For each file, it checks if it is an image and has a PropertyTagExifDTOrig PropertyItem tag.
     /// If it does, it moves the file in the correct folder.
     /// (If the directory path was DIR/, the file is moved to DIR/YEAR/MONTH/).
