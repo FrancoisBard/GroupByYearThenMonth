@@ -1,12 +1,14 @@
 GroupByYearThenMonth
 ====================
 
-Sort the files in the given folder by the year and month when the phot was taken
+Sort the files in the given folder by the year and month the photo was taken
+
+[![Build status](https://ci.appveyor.com/api/projects/status/2bun6p7gxotbb526/branch/master?svg=true)](https://ci.appveyor.com/project/FrancoisBard/groupbyyearthenmonth/branch/master)
 
 Description
 ===========
 
-Sort the files in the given folder by the year and month when the phot was taken.
+Sort the files in the given folder by the year and month the photo was taken.
 For each file, it checks if it is an image and has a PropertyTagExifDTOrig PropertyItem tag.
 If it does, it moves the file in the correct folder.
 (If the directory path was DIR/, the file is moved to DIR/YEAR/MONTH/).
